@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <name>
+        <lang name="default">Topicsoundche</lang>
+        <lang name="russian">Topicsoundche</lang>
+    </name>
+    <author>
+        <lang name="default">Sergey Polischook</lang>
+        <lang name="russian">Сергей Полищук</lang>
+    </author>
+    <homepage>http://kotoblog.pp.ua</homepage>
+    <settings>{topicsoundche}admin/</settings>
+    <version>1.0.0</version>
+    <requires>
+        <livestreet>0.5.1</livestreet>
+        <plugins>
+        </plugins>
+    </requires>
+    <description>
+        <lang name="default">This plugin add new topic type - soundche</lang>
+        <lang name="russian">Плагин позволяет публиковать тип контента soundche</lang>
+    </description>
+</plugin>
