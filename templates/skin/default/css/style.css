@@ -6,7 +6,7 @@
 	background-position: -0px -115px;
 }
 .modal.modal-write .write-list li.write-item-type-topicsoundche .write-item-image {
-	background: url(http://spolischook.dyndns.org/sound/plugins/topicsoundche/templates/skin/default/images/write.png) no-repeat;
+	background: url('../images/write.png') no-repeat;
 	background-position: 0px 0px;
 }
 .topic.topic-type-soundche span.textversion {
