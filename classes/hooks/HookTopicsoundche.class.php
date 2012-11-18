@@ -54,7 +54,10 @@ class PluginTopicsoundche_HookTopicsoundche extends Hook {
     }
 	// Новый тип при создании топика
     public function Add() {
-        return $this->Viewer_Fetch(Plugin::GetTemplatePath(__CLASS__).'menu.topic_action.tpl');
+        $this->oUserCurrent=$this->User_GetUserCurrent();
+        if ($this->oUserCurrent->isAdministrator()) {
+            return $this->Viewer_Fetch(Plugin::GetTemplatePath(__CLASS__).'menu.topic_action.tpl');
+        }
     }
     
     public function AddExtraToSetmebold($aExtraField){
